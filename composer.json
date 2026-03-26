@@ -22,22 +22,6 @@
         "illuminate/support": "^12",
         "illuminate/view": "^12"
     },
-    "require-dev": {
-        "algolia/algoliasearch-client-php": "^3.4.1",
-        "larastan/larastan": "^3.1.0",
-        "laravel/pint": "^1.14",
-        "laravel/scout": "^10.8.3",
-        "meilisearch/meilisearch-php": "^1.6.1",
-        "orchestra/testbench": "^10",
-        "rector/rector": "^2.0"
-    },
-    "suggest": {
-        "yajra/laravel-datatables-export": "Plugin for server-side exporting using livewire and queue worker.",
-        "yajra/laravel-datatables-buttons": "Plugin for server-side exporting of dataTables.",
-        "yajra/laravel-datatables-html": "Plugin for server-side HTML builder of dataTables.",
-        "yajra/laravel-datatables-fractal": "Plugin for server-side response using Fractal.",
-        "yajra/laravel-datatables-editor": "Plugin to use DataTables Editor (requires a license)."
-    },
     "autoload": {
         "psr-4": {
             "JeffersonCarvalho\\DataTables\\": "src/"

@@ -1,16 +1,9 @@
 # jQuery DataTables API for Laravel
-
-[![Join the chat at https://gitter.im/yajra/laravel-datatables](https://badges.gitter.im/yajra/laravel-datatables.svg)](https://gitter.im/yajra/laravel-datatables?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/yajra)
-[![Donate](https://img.shields.io/badge/donate-patreon-blue.svg)](https://www.patreon.com/bePatron?u=4521203)
-
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-orange.svg)](http://laravel.com)
-[![Latest Stable Version](https://img.shields.io/packagist/v/yajra/laravel-datatables-oracle.svg)](https://packagist.org/packages/yajra/laravel-datatables-oracle)
-[![Continuous Integration](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml)
-[![Static Analysis](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml)
+[![Latest Stable Version](https://img.shields.io/packagist/v/yajra/laravel-datatables-oracle.svg)](https://packagist.org/packages/jeffersoncarvalho/laravel-datatables-oracle)
 
-[![Total Downloads](https://poser.pugx.org/yajra/laravel-datatables-oracle/d/total.svg)](https://packagist.org/packages/yajra/laravel-datatables-oracle)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/yajra/laravel-datatables-oracle)
+[![Total Downloads](https://poser.pugx.org/jeffersoncarvalho/laravel-datatables-oracle/d/total.svg)](https://packagist.org/packages/jeffersoncarvalho/laravel-datatables-oracle)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/jeffersoncarvalho/laravel-datatables-oracle)
 
 Laravel package for handling [server-side](https://www.datatables.net/manual/server-side) works of [DataTables](http://datatables.net) jQuery Plugin via [AJAX option](https://datatables.net/reference/option/ajax) by using Eloquent ORM, Fluent Query Builder or Collection.
 
