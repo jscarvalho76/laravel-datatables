@@ -74,22 +74,6 @@ return DataTables::make(User::all())->toJson();
 
 | Laravel | Package  |
 |:--------|:---------|
-| 4.2.x   | 3.x      |
-| 5.0.x   | 6.x      |
-| 5.1.x   | 6.x      |
-| 5.2.x   | 6.x      |
-| 5.3.x   | 6.x      |
-| 5.4.x   | 7.x, 8.x |
-| 5.5.x   | 8.x      |
-| 5.6.x   | 8.x      |
-| 5.7.x   | 8.x      |
-| 5.8.x   | 9.x      |
-| 6.x     | 9.x      |
-| 7.x     | 9.x      |
-| 8.x     | 9.x      |
-| 9.x     | 10.x     |
-| 10.x    | 10.x     |
-| 11.x    | 11.x     |
 | 12.x    | 12.x     |
 
 ## Quick Installation
@@ -97,7 +81,7 @@ return DataTables::make(User::all())->toJson();
 ### Option 1: Install all DataTables libraries
 
 ```bash
-composer require yajra/laravel-datatables:"^12"
+composer require jeffersoncarvalho/laravel-datatables:"^12"
 ```
 
 ### Option 2: Install only this library
