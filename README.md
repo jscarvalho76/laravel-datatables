@@ -1,6 +1,6 @@
 # jQuery DataTables API for Laravel
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-orange.svg)](http://laravel.com)
-[![Latest Stable Version](https://img.shields.io/packagist/v/yajra/laravel-datatables-oracle.svg)](https://packagist.org/packages/jeffersoncarvalho/laravel-datatables-oracle)
+[![Latest Stable Version](https://img.shields.io/packagist/v/jeffersoncarvalho/laravel-datatables-oracle.svg)](https://packagist.org/packages/jeffersoncarvalho/laravel-datatables-oracle)
 
 [![Total Downloads](https://poser.pugx.org/jeffersoncarvalho/laravel-datatables-oracle/d/total.svg)](https://packagist.org/packages/jeffersoncarvalho/laravel-datatables-oracle)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/jeffersoncarvalho/laravel-datatables-oracle)
@@ -18,39 +18,6 @@ return DataTables::make(User::query())->toJson();
 return DataTables::make(DB::table('users'))->toJson();
 return DataTables::make(User::all())->toJson();
 ```
-
-## Sponsors
-
-<table>
-    <body>
-        <tr>
-            <td>
-                <img src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9lZDQwMmM1NjY2YjJlNjUxMTIyOWE4ZjM0NDdkNWMzYT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.aWU-snChAWu9abJV3dtBo-iy-2v_7JAxXUN1UHL_pDQ" height="50" alt="DataTables Logo">
-            </td>
-            <td>A big thank you to <a href="https://editor.datatables.net">DataTables</a> for supporting this project with a free DataTables Editor license.</td>
-        </tr>
-    </body>
-</table>
-
-<table>
-    <body>
-        <tr>
-            <td>
-                <img height="50" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.png" alt="JetBrains logo.">
-            </td>
-            <td>A big thank you to <a href="https://jb.gg/OpenSource">JetBrains</a> for supporting this project with free open-source licenses of their IDEs.</td>
-        </tr>
-    </body>
-</table>
-
-<table>
-    <body>
-        <tr>
-            <td><img src="https://i.imgur.com/zR8rsqk.png" height="50" alt="Blackfire.io Logo"></td>
-            <td>A big thank you to <a href="https://blackfire.io/docs/introduction?utm_source=laravel-datatables&utm_medium=github_readme&utm_campaign=logo">Blackfire.io</a> for supporting this project with a free open-source license.</td>
-        </tr>
-    </body>
-</table>
 
 ## Requirements
 - [PHP >= 8.2](http://php.net/)
@@ -71,13 +38,7 @@ return DataTables::make(User::all())->toJson();
 
 ## Quick Installation
 
-### Option 1: Install all DataTables libraries
-
-```bash
-composer require jeffersoncarvalho/laravel-datatables:"^12"
-```
-
-### Option 2: Install only this library
+### Install only this library
 
 ```bash
 composer require jeffersoncarvalho/laravel-datatables-oracle:"^12"
