@@ -15,7 +15,7 @@
 Laravel package for handling [server-side](https://www.datatables.net/manual/server-side) works of [DataTables](http://datatables.net) jQuery Plugin via [AJAX option](https://datatables.net/reference/option/ajax) by using Eloquent ORM, Fluent Query Builder or Collection.
 
 ```php
-use Yajra\DataTables\Facades\DataTables;
+use JeffersonCarvalho\DataTables\Facades\DataTables;
 
 return DataTables::eloquent(User::query())->toJson();
 return DataTables::query(DB::table('users'))->toJson();
@@ -103,7 +103,7 @@ composer require yajra/laravel-datatables:"^12"
 ### Option 2: Install only this library
 
 ```bash
-composer require yajra/laravel-datatables-oracle:"^12"
+composer require jeffersoncarvalho/laravel-datatables-oracle:"^12"
 ```
 
 #### Service Provider & Facade (Optional on Laravel 5.5+)
@@ -112,19 +112,19 @@ Register the provider and facade on your `config/app.php` file.
 ```php
 'providers' => [
     ...,
-    Yajra\DataTables\DataTablesServiceProvider::class,
+    JeffersonCarvalho\DataTables\DataTablesServiceProvider::class,
 ]
 
 'aliases' => [
     ...,
-    'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+    'DataTables' => JeffersonCarvalho\DataTables\Facades\DataTables::class,
 ]
 ```
 
 #### Configuration (Optional)
 
 ```bash
-php artisan vendor:publish --provider="Yajra\DataTables\DataTablesServiceProvider"
+php artisan vendor:publish --provider="JeffersonCarvalho\DataTables\DataTablesServiceProvider"
 ```
 
 And that's it! Start building out some awesome DataTables!
