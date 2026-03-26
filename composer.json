@@ -54,18 +54,6 @@
             "php-http/discovery": true
         }
     },
-    "scripts": {
-        "test": "./vendor/bin/phpunit",
-        "pint": "./vendor/bin/pint",
-        "rector": "./vendor/bin/rector",
-        "stan": "./vendor/bin/phpstan analyse --memory-limit=2G --ansi --no-progress --no-interaction --configuration=phpstan.neon.dist",
-        "pr": [
-            "@rector",
-            "@pint",
-            "@stan",
-            "@test"
-        ]
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "funding": [
