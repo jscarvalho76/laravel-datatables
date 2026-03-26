@@ -15,12 +15,15 @@
         }
     ],
     "require": {
-        "php": "^8.2|^8.3|^8.4",
-        "illuminate/database": "^12.56",
-        "illuminate/filesystem": "^12.56",
-        "illuminate/http": "^12.56",
-        "illuminate/support": "^12.56",
-        "illuminate/view": "^12.56"
+        "php": "^8.2",
+        "illuminate/database": "^12",
+        "illuminate/filesystem": "^12",
+        "illuminate/http": "^12",
+        "illuminate/support": "^12",
+        "illuminate/view": "^12"
+    },
+    "require-dev": {
+        "laravel/pint": "^0.1"
     },
     "autoload": {
         "psr-4": {
@@ -47,8 +50,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-        "laravel/pint": "^0.1.2"
-    }
+    "prefer-stable": true
 }
