@@ -1,7 +1,7 @@
 {
     "name": "jeffersoncarvalho/laravel-datatables-oracle",
     "description": "jQuery DataTables API for Laravel",
-    "version": "12",
+    "version": "12.2.8",
     "keywords": [
         "yajra",
         "laravel",
